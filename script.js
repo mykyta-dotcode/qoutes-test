@@ -45,7 +45,7 @@ jQuery(document).ready(function( $ ){
   	
   	$.ajax({
     	type: "POST",
-    	url: "https://ptch7ubi67.execute-api.eu-west-1.amazonaws.com/dev/quotes",
+    	url: "https://wizdwkx5z8.execute-api.eu-west-1.amazonaws.com/dev/quotes",
     	contentType: "application/json",
     	dataType: "json",
     	data: JSON.stringify(body),
@@ -137,7 +137,7 @@ async function getQuotes() {
 		console.log(body);
 
 		try {
-			const response = await fetch('https://ptch7ubi67.execute-api.eu-west-1.amazonaws.com/dev/quotes', {
+			const response = await fetch('https://wizdwkx5z8.execute-api.eu-west-1.amazonaws.com/dev/quotes', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
